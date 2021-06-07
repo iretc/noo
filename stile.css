@@ -1,4 +1,8 @@
-body,html{margin:0; padding:0px;background: #eee;height:100%;}
+body,html{
+	margin:0; 
+	padding:0px;
+	background: #eee;
+	height:100%;}
 
 @font-face {
     font-family: canter;
@@ -9,12 +13,6 @@ body,html{margin:0; padding:0px;background: #eee;height:100%;}
 img  {
 
 	padding-top: 2em;
-}
-
-h1 img {
-
-		padding: 0%;
-		width: 200px; height: auto;
 }
 #copertina{ 
 	font-family: canter;
@@ -30,30 +28,25 @@ h1 img {
 
 .container{
 	height: 100%;
-	width: 100% ;
 	position: relative; 
-	background: url(assets/images/ristoro.jpg);
+	background: url(assets/images/1.jpg);
 	background-size: 100% 100%; 
 	}
-
-.fab fa-facebook-square {
-
-	position: absolute;
-}
 	
 	.bottom-bar {
 	    position:absolute; /**/
 	    bottom:0;
 	    overflow: hidden;
-	    background: white;
+	    background: green; 
 	    /*background-image: ./sfondo.jpg;*/
 	    margin: 0;
 	    width: 100%;
 	    height:65px;      /**/
-	    border-top: 10px solid #213f87;
+	    border-top: 10px solid yellow;
 	} 
-	.bottom-bar:hover {height:370px; 
-		background:rgba(255, 255, 255, 0.7);}
+	.bottom-bar:hover {
+		height:370px; 
+		background:rgba(165, 165, 66, 1);}
 	
 	
 		.bottom-bar .boxs {
@@ -67,11 +60,13 @@ h1 img {
 			    margin: 5px;
 			    width:280px;
 			    height:340px;
-			    color:#213f87; font-family: arial; text-decoration: none; text-transform: uppercase;
+			    color:#FFB6C1; 
+			    font-family: arial; 
+			    text-decoration: none; text-transform: uppercase;
 			    
 			}
 			
-			.bottom-bar .box a{width:100%; float:left;color:#213f87;padding:20px 0 30px 0;text-decoration: none; }
+			.bottom-bar .box a{width:100%; float:left;color:#FFB6C1;padding:20px 0 30px 0;text-decoration: none; }
 			.cont-box{width:100%; float:left;white-space: normal;}
 			.cont-box p{color:#999;}
 			.cont-box ul li{color:#999;text-align: left}
